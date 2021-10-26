@@ -1,0 +1,9 @@
+def notas(numero):
+    if numero!=4:
+        print("Debe recuperar")
+    else:
+        if numero>=4 or numero<=10:
+            print("Usted esta aprobado ")
+numero=int(input("Ingrese una nota"))
+notas(numero)
+
